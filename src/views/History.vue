@@ -2,9 +2,14 @@
     <section>
         <ion-header>
             <ion-toolbar>
-                <ion-title>Inicio</ion-title>
+                <ion-title>History</ion-title>
             </ion-toolbar>
         </ion-header>
+
+        <ion-content>
+            Este es el historial
+        </ion-content>
+
         <Footer></Footer>
     </section>
 </template>

@@ -2,9 +2,14 @@
     <section>
         <ion-header>
             <ion-toolbar>
-                <ion-title>Inicio</ion-title>
+                <ion-title>Profile</ion-title>
             </ion-toolbar>
         </ion-header>
+
+        <ion-content>
+            Este es el perfil
+        </ion-content>
+
         <Footer></Footer>
     </section>
 </template>
