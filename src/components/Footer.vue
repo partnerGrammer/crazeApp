@@ -1,4 +1,5 @@
 <template>
+  
         <ion-tabs>
             <ion-tab tab="profile">
                 
@@ -55,6 +56,7 @@
                 </ion-tab-bar>
             </template>
         </ion-tabs>
+   
 </template>
 
 <script>
