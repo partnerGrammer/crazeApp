@@ -1,5 +1,4 @@
 <template>
-    <section>
         <ion-tabs>
             <ion-tab tab="profile">
                 
@@ -11,6 +10,9 @@
                 
             </ion-tab>
             <ion-tab tab="sidebar">
+            
+            </ion-tab>
+            <ion-tab tab="auth">
                 
             </ion-tab>
 
@@ -34,15 +36,25 @@
                         <ion-label>History</ion-label>
                     </ion-tab-button>
 
+                    <ion-tab-button tab="auth" to="/auth">
+                        <ion-icon name="information-circle"></ion-icon>
+                        <ion-label>Auth</ion-label>
+                    </ion-tab-button>
+
+                    <ion-tab-button tab="gallery" to="/gallery">
+                        <ion-icon name="information-circle"></ion-icon>
+                        <ion-label>Galeria</ion-label>
+                    </ion-tab-button>
+
                     <!-- Provide custom click handler -->
                     <ion-tab-button tab="sidebar" to="/">
                         <ion-icon name="information-circle"></ion-icon>
                         <ion-label>Menu</ion-label>
                     </ion-tab-button>
+                    
                 </ion-tab-bar>
             </template>
         </ion-tabs>
-    </section>
 </template>
 
 <script>
